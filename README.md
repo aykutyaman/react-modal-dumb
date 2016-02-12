@@ -8,7 +8,7 @@ $ npm install --save react-modal-dumb
 ```
 
 ## Usage
-```
+```jsx
 import React from 'react';
 import { render } from 'react-dom';
 import Modal from 'react-modal-dumb';
