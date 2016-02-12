@@ -7,6 +7,7 @@ install:
 - npm install
 deploy:
   provider: npm
+  email: "yaman.ayk@gmail.com"
   on:
     branch: master
   api_key:
