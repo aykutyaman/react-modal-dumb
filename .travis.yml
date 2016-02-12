@@ -4,3 +4,4 @@ node_js:
 
 install:
   - npm -g install npm@latest-2
+  - npm install

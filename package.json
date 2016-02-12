@@ -11,9 +11,9 @@
     "dev": "npm run clean && webpack -d --watch --config webpack.config.dev.js",
     "build": "npm run clean && webpack -p --config webpack.config.js",
     "test": "npm run lint && npm run testonly",
-    "lint": "./node_modules/eslint/bin/eslint.js ./lib",
-    "lintfix": "./node_modules/eslint/bin/eslint.js ./lib --fix",
-    "testonly": "./node_modules/mocha/bin/mocha $npm_package_options_mocha"
+    "lint": "./node_modules/.bin/eslint ./lib",
+    "lintfix": "./node_modules/.bin/eslint ./lib --fix",
+    "testonly": "./node_modules/.bin/mocha $npm_package_options_mocha"
   },
   "author": "",
   "license": "ISC",
