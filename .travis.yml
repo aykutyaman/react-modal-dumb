@@ -1,7 +1,13 @@
 language: node_js
 node_js:
-  - "0.10"
-
+- '0.10'
+before_install:
+- npm -g install npm@latest-2
 install:
-  - npm -g install npm@latest-2
-  - npm install
+- npm install
+deploy:
+  provider: npm
+  on:
+    branch: master
+  api_key:
+    secure: ZCZqQ8/SyLS+4fj7sETTx+PkCLKnaoZfDa/kOGs+p3y05bIbM4mlghIkYjd7q5dt9rVsOG+xbrbFQ37NNyArhTkHkyHT82ptALl436ehsEF9uQjpVEztgMGWG0IHfl81ryHajlFsLPW/K1eHAU+Tzp7PSc2qTLepMByr4WjtwhsHc6acgCWfm466IpYYqDvj2fckKEAkfF8tGaLWSLk8+Bcvu7LRAio65fEsT9F2nTY/4hNwpbgrntdYa7DDCZwXtAjq+gdkuu15A9lZXGL+Y8r6pBhIJWTZapqcX3aL+km7yzdYd/02rOl4qmGC+wrBvV17dcfbbEteSx/MukUDz9u5bez/PCJxEHiHCw1GzZR3g2gHpj0naCoZEWeLHhT0q9JUnKDE53nbK3IpgTiQv61eQwQ3jI3L10eyhVn3Nr7qyPfq79dRbvVV2aob8EAYr2ktL1Zm1SL2aLYpVw6A2r4X8UlEzdLg85XdE6R/1ye68F++OoDZUndl7tuOSo+wFC86NB3wx+qy6/RM3sEiNBftb7AZEGW+4cJBtB//CUzSoLPqdMFPKo8ISWgR/detmc4k94Ny5l3vG4sWXg88Y9wEHhpeOEaSprx2d69Lo9Nbfev/3AWyw+zM6B9JuvsgmJ2c5B+jl7II3CiADnyfnnUQ/WbkqKL0ne2xhzz9iEI=
