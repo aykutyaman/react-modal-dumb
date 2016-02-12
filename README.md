@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aykutyaman/react-modal-dumb.svg?branch=master)](https://travis-ci.org/aykutyaman/react-modal-dumb)
+
 # react-modal-dumb
 
 ## Installation
@@ -6,7 +8,7 @@ $ npm install --save react-modal-dumb
 ```
 
 ## Usage
-```
+```jsx
 import React from 'react';
 import { render } from 'react-dom';
 import Modal from 'react-modal-dumb';
