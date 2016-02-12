@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aykutyaman/react-modal-dumb.svg?branch=master)](https://travis-ci.org/aykutyaman/react-modal-dumb)
+
 # react-modal-dumb
 
 ## Installation
