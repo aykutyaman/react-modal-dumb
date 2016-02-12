@@ -10,10 +10,10 @@
     "clean": "rimraf dist",
     "dev": "npm run clean && webpack -d --watch --config webpack.config.dev.js",
     "build": "npm run clean && webpack -p --config webpack.config.js",
-    "test": "npm run testonly",
-    "lint": "eslint ./lib",
-    "lintfix": "eslint ./lib --fix",
-    "testonly": "mocha $npm_package_options_mocha"
+    "test": "npm run lint && npm run testonly",
+    "lint": "./node_modules/eslint/bin/eslint.js ./lib",
+    "lintfix": "./node_modules/eslint/bin/eslint.js ./lib --fix",
+    "testonly": "./node_modules/mocha/bin/mocha $npm_package_options_mocha"
   },
   "author": "",
   "license": "ISC",
