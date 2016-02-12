@@ -10,7 +10,7 @@
     "clean": "rimraf dist",
     "dev": "npm run clean && webpack -d --watch --config webpack.config.dev.js",
     "build": "npm run clean && webpack -p --config webpack.config.js",
-    "test": "npm run lint && npm run testonly",
+    "test": "npm run testonly",
     "lint": "eslint ./lib",
     "lintfix": "eslint ./lib --fix",
     "testonly": "mocha $npm_package_options_mocha"
