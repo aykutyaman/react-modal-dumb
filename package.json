@@ -1,6 +1,6 @@
 {
     "name": "react-modal-dumb",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "index.js",
     "options": {
@@ -10,6 +10,7 @@
 	"clean": "rimraf dist",
 	"dev": "npm run clean && webpack -d --watch --config webpack.config.dev.js",
 	"build": "npm run clean && webpack -p --config webpack.config.js",
+	"prepublish": "npm run build",
 	"test": "npm run lint && npm run testonly",
 	"lint": "./node_modules/.bin/eslint ./lib",
 	"lintfix": "./node_modules/.bin/eslint ./lib --fix",
