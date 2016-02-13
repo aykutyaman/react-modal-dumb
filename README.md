@@ -43,6 +43,9 @@ render(<SideNav />, document.getElementById('hello'));
 ## For development
 Run webpack in watch mode with the webpack.config.dev.js config file
 ```
+$ git clone git@github.com:aykutyaman/react-modal-dumb.git
+$ cd react-modal-dumb
+$ npm install
 $ npm run dev
 ```
 Now edit lib files and examples/index.jsx. After that run examples/index.html in
