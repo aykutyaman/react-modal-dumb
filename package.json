@@ -1,7 +1,7 @@
 {
     "name": "react-modal-dumb",
-    "version": "1.0.3",
-    "description": "",
+    "version": "1.0.5",
+    "description": "Fully controlled dumb react component",
     "main": "index.js",
     "options": {
 	"mocha": "--require scripts/mocha_runner lib/**/__tests__/**/*.js"
@@ -9,7 +9,7 @@
     "scripts": {
 	"clean": "rimraf dist",
 	"dev": "npm run clean && webpack -d --watch --config webpack.config.dev.js",
-	"build": "npm run clean && webpack -p --config webpack.config.js",
+	"build": "webpack -p --config webpack.config.js",
 	"prepublish": "npm run build",
 	"test": "npm run lint && npm run testonly",
 	"lint": "./node_modules/.bin/eslint ./lib",
