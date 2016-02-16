@@ -45,5 +45,5 @@ Run webpack in watch mode with the webpack.config.dev.js config file
 ```
 $ npm run dev
 ```
-Now edit lib files and examples/index.jsx. After that run examples/index.html in
-order to see the results.
+Open http://localhost:8080/webpack-dev-server/bundle in order to see the results.
+Now edit lib files or examples/index.jsx to develop your awesome component.
