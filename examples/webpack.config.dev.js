@@ -1,12 +1,14 @@
 var path = require('path');
 var webpack = require('webpack');
 
+
 var BUILD_DIR = path.resolve(__dirname, 'dist');
-var APP_DIR = path.resolve(__dirname, 'lib');
+var APP_DIR = path.resolve(__dirname, '/../lib');
+var EXAMPLE_DIR = path.resolve(__dirname);
 
 
 module.exports = {
-  entry: APP_DIR + '/../examples/example.jsx',
+  entry: EXAMPLE_DIR + '/example.jsx',
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'

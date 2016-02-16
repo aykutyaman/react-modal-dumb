@@ -28,4 +28,4 @@ const SideNav = React.createClass({
 export default SideNav;
 
 
-render(<SideNav />, document.getElementById('hello'));
+render(<SideNav />, document.body);
