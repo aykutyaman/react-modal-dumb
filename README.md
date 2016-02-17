@@ -39,7 +39,6 @@ const SideNav = React.createClass({
 render(<SideNav />, document.getElementById('hello'));
 ```
 
-
 ## For development
 Run webpack in watch mode with the webpack.config.dev.js config file
 ```

@@ -1,6 +1,6 @@
 {
     "name": "react-modal-dumb",
-    "version": "1.0.8",
+    "version": "1.0.10",
     "description": "Fully controlled dumb react component",
     "main": "index.js",
     "options": {
@@ -8,7 +8,7 @@
     },
     "scripts": {
 	"clean": "rimraf dist",
-	"prepublish": ". ./scripts/prepublish.sh",
+	"prepublish": "npm run clean && . ./scripts/prepublish.sh",
 	"dev": "webpack-dev-server --config examples/webpack.config.dev.js",
 	"lint": "./node_modules/.bin/eslint ./lib",
 	"lintfix": "./node_modules/.bin/eslint ./lib --fix",
